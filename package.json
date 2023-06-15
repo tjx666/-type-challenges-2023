@@ -1,0 +1,24 @@
+{
+    "name": "type-challenges-2023",
+    "private": "true",
+    "type": "module",
+    "prettier": "@yutengjing/prettier-config",
+    "lint-staged": {
+        "*.{js,ts,json,md,yml}": "prettier --write"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged"
+    },
+    "scripts": {
+        "test": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@type-challenges/utils": "^0.1.1",
+        "@yutengjing/prettier-config": "^0.0.1",
+        "@yutengjing/tsconfig-node": "^0.0.2",
+        "lint-staged": "^13.2.2",
+        "prettier": "^2.8.8",
+        "simple-git-hooks": "^2.8.1",
+        "typescript": "^5.1.3"
+    }
+}

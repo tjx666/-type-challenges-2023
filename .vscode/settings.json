@@ -1,0 +1,8 @@
+{
+    "eslint.enable": false,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "[typescript][json][jsonc][markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
