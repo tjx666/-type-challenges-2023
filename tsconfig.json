@@ -1,4 +1,7 @@
 {
     "extends": "@yutengjing/tsconfig-node",
-    "include": ["src/**/*.ts"]
+    "compilerOptions": {
+        "skipLibCheck": false
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
