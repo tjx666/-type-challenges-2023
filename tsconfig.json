@@ -3,5 +3,5 @@
     "compilerOptions": {
         "skipLibCheck": false
     },
-    "include": ["src/**/*.d.ts"]
+    "include": ["src/**/*.d.ts", "src/**/*.ts"]
 }
