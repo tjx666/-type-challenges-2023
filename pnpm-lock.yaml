@@ -10,16 +10,16 @@ devDependencies:
     version: 0.1.1
   '@yutengjing/prettier-config':
     specifier: ^0.0.1
-    version: 0.0.1(prettier@3.0.3)
+    version: 0.0.1(prettier@3.1.0)
   '@yutengjing/tsconfig-node':
     specifier: ^0.0.3
     version: 0.0.3(@types/node@18.17.0)
   lint-staged:
-    specifier: ^15.0.2
-    version: 15.0.2
+    specifier: ^15.1.0
+    version: 15.1.0
   prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.1.0
+    version: 3.1.0
   simple-git-hooks:
     specifier: ^2.9.0
     version: 2.9.0
@@ -33,7 +33,7 @@ packages:
     resolution: {integrity: sha512-UWRmygBsyj4bVXvDiqSccwT1kmsorcwQwaIy30yVh8T+Gspx4OlC0shX1y+ZuwXZvgnafmpRYKks0bAu9urJew==}
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.0.3
+      prettier: 3.1.0
     dev: true
 
   /@type-challenges/utils@0.1.1:
@@ -50,14 +50,14 @@ packages:
       chevrotain: 7.1.1
     dev: true
 
-  /@yutengjing/prettier-config@0.0.1(prettier@3.0.3):
+  /@yutengjing/prettier-config@0.0.1(prettier@3.1.0):
     resolution: {integrity: sha512-L0Zgc9/SsRt10pDY+tv8q3qiT6cmzbWa8wgNm3ftiTyKpTwP/HhJ22h9/A1/6W7PsqkmftqyHLoXYieOlFDprw==}
     requiresBuild: true
     peerDependencies:
       prettier: ^2.7.1
     dependencies:
       '@prettier/plugin-xml': 2.2.0
-      prettier: 3.0.3
+      prettier: 3.1.0
     dev: true
 
   /@yutengjing/tsconfig-base@0.0.3:
@@ -221,8 +221,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lint-staged@15.0.2:
-    resolution: {integrity: sha512-vnEy7pFTHyVuDmCAIFKR5QDO8XLVlPFQQyujQ/STOxe40ICWqJ6knS2wSJ/ffX/Lw0rz83luRDh+ET7toN+rOw==}
+  /lint-staged@15.1.0:
+    resolution: {integrity: sha512-ZPKXWHVlL7uwVpy8OZ7YQjYDAuO5X4kMh0XgZvPNxLcCCngd0PO5jKQyy3+s4TL2EnHoIXIzP1422f/l3nZKMw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
@@ -235,7 +235,7 @@ packages:
       micromatch: 4.0.5
       pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.3.3
+      yaml: 2.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -331,8 +331,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -449,7 +449,7 @@ packages:
       strip-ansi: 7.1.0
     dev: true
 
-  /yaml@2.3.3:
-    resolution: {integrity: sha512-zw0VAJxgeZ6+++/su5AFoqBbZbrEakwu+X0M5HmcwUiBL7AzcuPKjj5we4xfQLp78LkEMpD0cOnUhmgOVy3KdQ==}
+  /yaml@2.3.4:
+    resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
     dev: true
