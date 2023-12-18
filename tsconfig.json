@@ -1,6 +1,7 @@
 {
     "extends": "@yutengjing/tsconfig-node",
     "compilerOptions": {
+        "lib": ["DOM", "ESNext"],
         "skipLibCheck": false
     },
     "include": ["src/**/*.d.ts", "src/**/*.ts"]
