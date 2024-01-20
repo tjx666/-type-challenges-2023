@@ -14,10 +14,10 @@
     },
     "devDependencies": {
         "@type-challenges/utils": "^0.1.1",
-        "@yutengjing/prettier-config": "^0.0.1",
-        "@yutengjing/tsconfig-node": "^0.0.3",
-        "lint-staged": "^15.1.0",
-        "prettier": "^3.1.0",
+        "@yutengjing/prettier-config": "^1.0.0",
+        "@yutengjing/tsconfig-node": "^0.0.5",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.2.4",
         "simple-git-hooks": "^2.9.0",
         "typescript": "next"
     }
